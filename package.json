@@ -1,0 +1,26 @@
+{
+  "name": "json-path-tree",
+  "version": "0.0.1",
+  "description": "从json对象中生成极简的json路径树",
+  "scripts": {
+    "test": "vitest"
+  },
+  "bin": {
+    "json-path-tree": "./bin/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-schema-generator": "^2.0.6",
+    "json-schema-traverse": "^1.0.0",
+    "lodash-es": "^4.17.21",
+    "zx": "^7.2.3"
+  },
+  "devDependencies": {
+    "@types/json-schema-generator": "^2.0.3",
+    "@types/lodash-es": "^4.17.12",
+    "vite-node": "^1.1.3",
+    "vitest": "^1.1.3"
+  }
+}
