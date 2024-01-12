@@ -5,3 +5,15 @@
 ```sh
 json-path-tree -i path/to/input-file -o path/to/output-file
 ```
+## 示例
+```
+input-file: a: { b: [{ c: 3 }] }
+output-file: {
+  "a": {
+    "b": {
+      "c": null,
+    },
+  },
+}
+```
+ 
