@@ -9,5 +9,8 @@
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "resolveJsonModule": true,
+    "types": [
+      "vitest/globals"
+    ]
   },
 }
