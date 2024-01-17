@@ -1,6 +1,6 @@
 {
   "name": "json-path-tree",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "从json对象中生成极简的json路径树",
   "repository": {
     "type": "git",
